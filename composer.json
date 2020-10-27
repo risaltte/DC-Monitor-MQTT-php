@@ -1,0 +1,19 @@
+{
+    "name": "risal/mqtt",
+    "description": "Publisher and Subscriber MQTT with php",
+    "authors": [
+        {
+            "name": "Rafael Risalte",
+            "email": "risaltte@gmail.com"
+        }
+    ],
+    "require": {
+        "php-mqtt/client": "^0.3.0"
+    },
+    "autoload": {
+        "files": ["./src/functions_actions.php"],
+        "psr-4": {
+            "risaltte\\DcMonitor\\": "src/" 
+        }
+    }
+}
